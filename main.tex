@@ -197,6 +197,46 @@ Differential:
 \end{equation}
 
 The differential of a function $f(x)$ relative to the point $x$ and to the $\Delta x$ increment, is the product of the derivative of the function, calculated in x, for the $\Delta x$ increment
+
+\begin{equation}
+\frac{\Delta y}{\Delta x} = \frac{f(x+h)-f(x)}{h}
+\end{equation}
+
+\begin{equation}
+f'(x) = \frac{dy}{dx}
+\end{equation}
+
+Differentiability
+
+% todo
+
+Rolle's theorem
+
+Given a function $f(x)$ continuous in an interval $[a;b]$, differentiable in $(a; b)$, where $f(a) = f(b)$, then there exists at least a point $f(c) \in [a; b]$ where $f'(c) = 0$
+
+Lagrange's theorem
+
+Given a function $f(x)$ continuous and differentiable in an interval $[a;b]$, then there exists a point where the following relationship is true:
+\begin{equation}
+\frac{f(b)-f(a)}{b-a} = f'(c)
+\end{equation}
+
+If a function $f(x)$ continuous in an interval $[a;b]$, differentiable in $(a; b)$, where $f'(x) = 0$ in every point within the interval, then $f(x)$ has the same value across the whole interval.
+
+Cauchy's theorem
+
+If two functions $f(x)$ and $g(x)$ are continuous and differentiable in an interval $[a;b]$, and $g'(x)\neq 0 \forall x \in [a;b]$, then there exists at least a point where the following is true:
+\begin{equation}
+\frac{f(b)-f(a)}{g(b)-g(a)} = \frac{f'(c)}{g'(c)}
+\end{equation}
+
+De L' Hospital's theorem
+
+Given two functions $f(x)$ and $g(x)$ continuous and differentiable in an open interval $I$ except possibly at a point c contained in $I$, if $lim_{x\to c} f(x) = \lim_{x\to c} g(x) = 0$ or $\pm\infty$ and $g'(x)\neq 0 \forall x \in I$ with $x\neq c$ and $\lim_{x\to c} \frac{f'(x)}{g'(x)}$ exists then
+\begin{equation}
+lim_{x\to c}\frac{f(x)}{g(x)} = lim_{x\to c}\frac{f'(x)}{g'(x)}
+\end{equation}
+
 \section{Integrals}
 
 \begin{equation}
