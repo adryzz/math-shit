@@ -1,17 +1,49 @@
 \documentclass{article}
-
+\usepackage[fleqn]{mathtools}
 \begin{document}
 \title{Math Shit}
 \boldmath
 
 \section{Constants}
-$\lim_{x\to\infty}(1+\frac{1}{x})^x=e\approx2.7182$
+
+\begin{equation}
+\lim_{x\to\infty}(1+\frac{1}{x})^x=e\approx2.7182
+\end{equation}
 
 \section{Limits}
 
+Definition of limit:
+\begin{equation}
+\lim_{x\to{x_0}}f(x) = l if \forall\varepsilon<0\exists I(x_0): |f(x) - l| < \varepsilon, \forall x \in I(x_0), x\neq x_0
+\end{equation}
+
+A vertical asymptote of a function happens in $x = c$ if:
+\begin{equation}
+\lim_{x\to{c^\pm}} f(x) = \pm\infty
+\end{equation}
+
+A horizontal asymptote of a function happens in $y = c$ if:
+\begin{equation}
+\lim_{x\to{\pm\infty}} f(x) = \pm c
+\end{equation}
+
+An oblique asymptote of a function happens if:
+\begin{equation}
+\lim_{x\to{\pm\infty}} \frac{f(x)}{x} = m
+\end{equation}
+with $m \neq 0$.
+
 \section{Derivatives}
-$D[f(x)] = f'(x) = \lim_{h\to0}(\frac{f(x)-f(x+h)}{h})$
+
+Definition of derivative:
+\begin{equation}
+D[f(x)] = f'(x) = \lim_{h\to0}(\frac{f(x)-f(x+h)}{h})
+\end{equation}
 
 \section{Integrals}
-$\int_{a}^{b} f(x) dx = [F(x)]_{a}^{b} = F(b) - F(a)$
+
+\begin{equation}
+\int_{a}^{b} f(x) dx = [F(x)]_{a}^{b} = F(b) - F(a)
+\end{equation}
+
 \end{document}
