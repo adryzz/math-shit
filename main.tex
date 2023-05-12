@@ -150,18 +150,53 @@ D [f(x)\cdot g(x)] = f'(x) \cdot g(x) + f(x) \cdot g'(x)
 D [\frac{1}{f(x)}] = \frac{f'(x)}{f^2(x)}
 \end{equation}
 \begin{equation}
-D [\frac{f(x)}{g(x)}] = \frac{f'(x) \cdot g(x) - f(x) \cdot g'(x)}{g^2(x)}
+D [\frac{f(x)}{g(x)}] = \frac{f'(x) \cdot g(x) - f(x) \cdot g'(x)}{g^2(x)} \textnormal{ with } g(x) \neq 0
 \end{equation}
 \begin{equation}
-D [\frac{f(x)}{g(x)}] = \frac{f'(x) \cdot g(x) - f(x) \cdot g'(x)}{g^2(x)}
+D [\frac{f(x)}{g(x)}] = \frac{f'(x) \cdot g(x) - f(x) \cdot g'(x)}{g^2(x)} \textnormal{ with } g(x) \neq 0
+\end{equation}
+\begin{equation}
+D [\tan{x}] = \frac{1}{\cos^2{x}} = 1 + \tan^2{x}
 \end{equation}
 \begin{equation}
 D [\tan{x}] = \frac{1}{\cos^2{x}} = 1 + \tan^2{x}
 \end{equation}
 \begin{equation}
-D [\tan{x}] = \frac{1}{\cos^2{x}} = 1 + \tan^2{x}
+D [\cot{x}] = \frac{1}{\sin^2{x}} = -(1 + \cot^2{x})
+\end{equation}
+\begin{equation}
+D [f(g(x))] = f'(g(x))\cdot g'(x)
+\end{equation}
+\begin{equation}
+D [f(x)]^a = a[f(x)]^{a-1}\cdot f'(x)
+\end{equation}
+\begin{equation}
+D [f^{-1}(y)] = \frac{1}{f'(x)} \textnormal{ with } x = f^{-1}(y)
+\end{equation}
+\begin{equation}
+D [\arcsin{x}] = \frac{1}{\sqrt{\-x^2}}
+\end{equation}
+\begin{equation}
+D [\arccos{x}] = -\frac{1}{\sqrt{\-x^2}}
+\end{equation}
+\begin{equation}
+D [\arctan{x}] = \frac{1}{1+x^2}
+\end{equation}
+\begin{equation}
+D [\arctan{x}] = -\frac{1}{1+x^2}
+\end{equation}
+Tangent line:
+\begin{equation}
+y - f(x_0) = f'(x0)\cdot (x - x_0)
+\end{equation}
+Given the function $y = f(x)$ and a point $x = c$, if $f'(c) = 0$, then $x = c$ is a stationary point, where the tangent is horizontal.
+
+Differential:
+\begin{equation}
+\frac{\Delta y}{\Delta x} = \frac{f(x+h)-f(x)}{h}
 \end{equation}
 
+The differential of a function $f(x)$ relative to the point $x$ and to the $\Delta x$ increment, is the product of the derivative of the function, calculated in x, for the $\Delta x$ increment
 \section{Integrals}
 
 \begin{equation}
