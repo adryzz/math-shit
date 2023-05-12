@@ -9,7 +9,7 @@
 \section{Constants}
 
 \begin{equation}
-\lim_{x\to\infty}(1+\frac{1}{x})^x=e\approx2.7182
+\lim_{x\to\pm\infty}(1+\frac{1}{x})^x=e\approx2.7182
 \end{equation}
 
 \section{Limits}
@@ -34,6 +34,10 @@ An oblique asymptote of a function happens if:
 \lim_{x\to{\pm\infty}} \frac{f(x)}{x} = m
 \end{equation}
 with $m \neq 0$.
+to find $q$: 
+\begin{equation}
+\lim_{x\to{\pm\infty}} [f(x) - mx] = q
+\end{equation}
 
 Addition of limits
 \begin{equation}
@@ -53,6 +57,40 @@ Division of limits
 Power
 \begin{equation}
 \lim_{x\to{x_0}} f(x) = l \in \mathbb{R} \Rightarrow \lim_{x\to{x_0}} [f(x)]^n = l^n, \forall n\in \mathbb{N} - \{0\}
+\end{equation}
+
+Indeterminate forms:
+\begin{equation}
++\infty - \infty, \infty \cdot 0, \frac{\infty}{\infty}, \frac{0}{0}, 1^{\infty}, 0^0, \infty^0
+\end{equation}
+
+Common limits:
+\begin{equation}
+\lim_{x\to{0}} \frac{\sin{x}}{x} = 1
+\end{equation}
+\begin{equation}
+\lim_{x\to{0}} \frac{1-\cos{x}}{x} = 0
+\end{equation}
+\begin{equation}
+\lim_{x\to{0}} \frac{1-\cos{x}}{x^2} = \frac{1}{2}
+\end{equation}
+\begin{equation}
+\lim_{x\to\pm\infty}1+\frac{1}{x}^x=e
+\end{equation}
+\begin{equation}
+\lim_{x\to{0}}\frac{\ln{(1+x)}}{x}=1
+\end{equation}
+\begin{equation}
+\lim_{x\to{0}}\frac{e^x-1}{x}=1
+\end{equation}
+\begin{equation}
+\lim_{x\to{0}}\frac{\log_a{(1+x)}}{x}=\log_a{e}
+\end{equation}
+\begin{equation}
+\lim_{x\to{0}}\frac{a^x-1}{x}=\ln{a}
+\end{equation}
+\begin{equation}
+\lim_{x\to{0}}\frac{(1+x)^k-1}{x}=k
 \end{equation}
 
 \section{Derivatives}
